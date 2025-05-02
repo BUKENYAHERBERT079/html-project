@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color:red;
+    }
+
+    .hero {
+      background-color:burlywood;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color:greenyellow;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+    }
+
+    .contact-section {
+      padding: 50px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .contact-section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: grid;
+      gap: 20px;
+    }
+
+    input, textarea {
+      padding: 15px;
+      border: 1px solid black;
+      border-radius: 8px;
+      width: 100%;
+      font-size: 16px;
+    }
+
+    button {
+      background-color:black;
+      color:darkred;
+      padding: 15px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color:burlywood;
+    }
+
+    .footer {
+      background-color:black;
+      color:white;
+      padding: 30px 20px;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .footer p, .footer a {
+      margin: 5px 0;
+      color:red;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      color:greenyellow;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Banner -->
+  <div class="hero">
+    <h1>Contact Us</h1>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="contact-section">
+    <h2>Get in Touch</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Full Name" required>
+      <input type="email" name="email" placeholder="Your Email Address" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button style="color:red;"><a href="sendmessage.html">send message</a></button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 Environment Management Center Authroity. All rights reserved.</p>
+    <p>123 high Street,mbarara,uganda</p>
+    <p>Email: <a href="mailto:info@environmentmanagementcenterauthroity.com">info@environmentmanagementcenterauthroity.com</a></p>
+    <p>Follow us:
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Instagram</a>
+    </p>
+  </div>
+
+</body>
+</html>
+
+
+
