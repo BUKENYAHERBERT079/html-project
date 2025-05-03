@@ -1,1 +1,1 @@
-my project ia about protecting the environement through protecting the environment and also through educating the public about protecting the environment and it has the images and vidoes that educate the publiic
+My project is all about educating the public on how to protect the environment and it has different vidoes audioes images and educational notes that educate the public 
